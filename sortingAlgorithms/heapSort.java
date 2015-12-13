@@ -6,9 +6,9 @@ public class heapSort {
 	
 	private static int size;
 	private static int[] array;
-    private static int left;
-    private static int right;
-    private static int max;
+        private static int left;
+        private static int right;
+        private static int max;
     
 	public static void swap(int i, int max) {
 		
