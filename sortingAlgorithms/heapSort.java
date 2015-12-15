@@ -77,7 +77,7 @@ public class heapSort {
 		System.out.print("Enter array size: ");
 		size = in.nextInt();
 
-		int[] array = new int[size];
+		int[] array1 = new int[size];
 
 		for( int i = 0; i < array1.length; i++ )
 			array1[i] = (int) (Math.random() * 20);
