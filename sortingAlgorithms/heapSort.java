@@ -1,6 +1,7 @@
 package sortingAlgorithms;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class heapSort {
 	
@@ -69,8 +70,14 @@ public class heapSort {
 	}
 	
 	public static void main(String[] args) {
+	
+		int size;
+		Scanner in = new Scanner(System.in);
+	
+		System.out.print("Enter array size: ");
+		size = in.nextInt();
 
-		int[] array1 = new int[(int) (Math.random() * 20)];
+		int[] array = new int[size];
 
 		for( int i = 0; i < array1.length; i++ )
 			array1[i] = (int) (Math.random() * 20);
