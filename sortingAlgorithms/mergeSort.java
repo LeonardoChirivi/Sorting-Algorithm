@@ -26,8 +26,8 @@ public class mergeSort {
 		for(int i = low; i <= high; i++) tmp[i] = array[i];
 		
 		int i = low;
-        int j = middle + 1;
-        int k = low;
+		int j = middle+1;
+		int k = low;
         
 		while( i <= middle && j <= high ){
 			
