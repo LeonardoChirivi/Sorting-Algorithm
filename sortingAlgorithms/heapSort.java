@@ -4,11 +4,11 @@ import java.util.Arrays;
 
 public class heapSort {
 	
-	private static int size;
-	private static int[] array;
-        private static int left;
-        private static int right;
-        private static int max;
+	public static int size;
+	public static int[] array;
+	public static int right;
+	public static int left;
+	public static int max;
     
 	public static void swap(int i, int max) {
 		
