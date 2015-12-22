@@ -70,7 +70,7 @@ public class heapSort {
 	
 	public static void main(String[] args) {
 
-		int[] array1 = new int[(int) (Math.random() * 20)];
+		int[] array1 = new int[(int) (Math.random() * (20-1)+1)];
 
 		for( int i = 0; i < array1.length; i++ )
 			array1[i] = (int) (Math.random() * 20);
