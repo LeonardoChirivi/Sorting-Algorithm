@@ -28,9 +28,9 @@ public class bogoSort {
 
 			if (randomElement != i) {
 				
-				array[i] = array[i] ^ array[randomElement];
+				array[i]             = array[i] ^ array[randomElement];
 				array[randomElement] = array[i] ^ array[randomElement];
-				array[i] = array[i] ^ array[randomElement];
+				array[i]             = array[i] ^ array[randomElement];
 				
 			}
 			
