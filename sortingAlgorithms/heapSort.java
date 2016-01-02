@@ -75,8 +75,8 @@ public class heapSort {
 		for( int i = 0; i < array1.length; i++ )
 			array1[i] = (int) (Math.random() * 20);
 	
-		System.out.println(Arrays.toString(array1));
-		
+		System.out.println(Arrays.toString(array1)+"\n");
+
 		sort(array1);
 		
 		System.out.println(Arrays.toString(array1));
